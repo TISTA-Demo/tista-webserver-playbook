@@ -1,0 +1,2 @@
+site_name: 'tista_demo.webserver'
+site_description: 'Demo Ansible playbook for configuring a sample web server'
