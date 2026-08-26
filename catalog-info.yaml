@@ -7,6 +7,7 @@ metadata:
   tags:
     - ansible
     - playbook
+  annotations:  
     backstage.io/techdocs-ref: dir:.
     github.com/project-slug: TISTA-Demo/tista-webserver-playbook
 spec:
