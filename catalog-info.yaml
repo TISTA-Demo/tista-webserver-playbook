@@ -1,0 +1,17 @@
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: tista_demo.webserver
+  description: Demo Ansible playbook that configures a sample web server, created via the RHDH Ansible plugin for the IATDR combined-capability demo.
+  tags:
+    - ansible
+    - playbook
+  annotations:
+    backstage.io/techdocs-ref: dir:.
+    github.com/project-slug: TISTA-Demo/tista-webserver-playbook
+spec:
+  type: playbook-project
+  system: tista-webserver-demo
+  lifecycle: production
+  owner: andrev-tista
