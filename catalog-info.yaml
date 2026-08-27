@@ -14,7 +14,7 @@ spec:
   type: playbook-project
   system: tista-webserver-demo
   lifecycle: production
-  owner: andrev-tista
+  owner: user:default/andrev-tista
 ---
 apiVersion: backstage.io/v1alpha1
 kind: System
@@ -22,7 +22,7 @@ metadata:
   name: tista-webserver-demo
   description: Demo Ansible playbook for configuring a sample web server
 spec:
-  owner: andrev-tista
+  owner: user:default/andrev-tista
 ---
 apiVersion: backstage.io/v1alpha1
 kind: System
@@ -38,4 +38,4 @@ metadata:
   name: tista-network-hardening-demo
   description: Demo Ansible collection for network device hardening automation
 spec:
-  owner: andrev-tista
+  owner: user:default/andrev-tista
